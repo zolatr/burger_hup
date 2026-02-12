@@ -1,0 +1,241 @@
+{
+  "totalPages": 2,
+  "totalLinks": 26,
+  "brokenLinks": [
+    {
+      "url": "tel:+902161234567",
+      "status": 0,
+      "source": "http://localhost:5175",
+      "anchorText": "+90 216 123 45 67",
+      "type": "external",
+      "redirectChain": [],
+      "finalUrl": "tel:+902161234567"
+    },
+    {
+      "url": "mailto:info@burgerhub.com",
+      "status": 0,
+      "source": "http://localhost:5175",
+      "anchorText": "info@burgerhub.com",
+      "type": "external",
+      "redirectChain": [],
+      "finalUrl": "mailto:info@burgerhub.com"
+    },
+    {
+      "url": "tel:+902161234567",
+      "status": 0,
+      "source": "http://localhost:5175/",
+      "anchorText": "+90 216 123 45 67",
+      "type": "external",
+      "redirectChain": [],
+      "finalUrl": "tel:+902161234567"
+    },
+    {
+      "url": "mailto:info@burgerhub.com",
+      "status": 0,
+      "source": "http://localhost:5175/",
+      "anchorText": "info@burgerhub.com",
+      "type": "external",
+      "redirectChain": [],
+      "finalUrl": "mailto:info@burgerhub.com"
+    }
+  ],
+  "redirectChains": [],
+  "orphanPages": [],
+  "mixedContent": [],
+  "pages": [
+    {
+      "url": "http://localhost:5175",
+      "links": [
+        {
+          "url": "http://localhost:5175/#",
+          "status": 0,
+          "source": "http://localhost:5175",
+          "anchorText": "",
+          "type": "internal"
+        },
+        {
+          "url": "http://localhost:5175/#",
+          "status": 0,
+          "source": "http://localhost:5175",
+          "anchorText": "",
+          "type": "internal"
+        },
+        {
+          "url": "http://localhost:5175/#",
+          "status": 0,
+          "source": "http://localhost:5175",
+          "anchorText": "",
+          "type": "internal"
+        },
+        {
+          "url": "http://localhost:5175/#",
+          "status": 0,
+          "source": "http://localhost:5175",
+          "anchorText": "Hakkımızda",
+          "type": "internal"
+        },
+        {
+          "url": "http://localhost:5175/#",
+          "status": 0,
+          "source": "http://localhost:5175",
+          "anchorText": "Menü",
+          "type": "internal"
+        },
+        {
+          "url": "http://localhost:5175/#",
+          "status": 0,
+          "source": "http://localhost:5175",
+          "anchorText": "Kampanyalar",
+          "type": "internal"
+        },
+        {
+          "url": "http://localhost:5175/#",
+          "status": 0,
+          "source": "http://localhost:5175",
+          "anchorText": "Blog",
+          "type": "internal"
+        },
+        {
+          "url": "http://localhost:5175/#",
+          "status": 0,
+          "source": "http://localhost:5175",
+          "anchorText": "SSS",
+          "type": "internal"
+        },
+        {
+          "url": "http://localhost:5175/#",
+          "status": 0,
+          "source": "http://localhost:5175",
+          "anchorText": "İletişim",
+          "type": "internal"
+        },
+        {
+          "url": "http://localhost:5175/#",
+          "status": 0,
+          "source": "http://localhost:5175",
+          "anchorText": "Gizlilik Politikası",
+          "type": "internal"
+        },
+        {
+          "url": "http://localhost:5175/#",
+          "status": 0,
+          "source": "http://localhost:5175",
+          "anchorText": "Kullanım Şartları",
+          "type": "internal"
+        },
+        {
+          "url": "tel:+902161234567",
+          "status": 0,
+          "source": "http://localhost:5175",
+          "anchorText": "+90 216 123 45 67",
+          "type": "external"
+        },
+        {
+          "url": "mailto:info@burgerhub.com",
+          "status": 0,
+          "source": "http://localhost:5175",
+          "anchorText": "info@burgerhub.com",
+          "type": "external"
+        }
+      ],
+      "title": "Burger Hub Unified"
+    },
+    {
+      "url": "http://localhost:5175/",
+      "links": [
+        {
+          "url": "http://localhost:5175/#",
+          "status": 0,
+          "source": "http://localhost:5175/",
+          "anchorText": "",
+          "type": "internal"
+        },
+        {
+          "url": "http://localhost:5175/#",
+          "status": 0,
+          "source": "http://localhost:5175/",
+          "anchorText": "",
+          "type": "internal"
+        },
+        {
+          "url": "http://localhost:5175/#",
+          "status": 0,
+          "source": "http://localhost:5175/",
+          "anchorText": "",
+          "type": "internal"
+        },
+        {
+          "url": "http://localhost:5175/#",
+          "status": 0,
+          "source": "http://localhost:5175/",
+          "anchorText": "Hakkımızda",
+          "type": "internal"
+        },
+        {
+          "url": "http://localhost:5175/#",
+          "status": 0,
+          "source": "http://localhost:5175/",
+          "anchorText": "Menü",
+          "type": "internal"
+        },
+        {
+          "url": "http://localhost:5175/#",
+          "status": 0,
+          "source": "http://localhost:5175/",
+          "anchorText": "Kampanyalar",
+          "type": "internal"
+        },
+        {
+          "url": "http://localhost:5175/#",
+          "status": 0,
+          "source": "http://localhost:5175/",
+          "anchorText": "Blog",
+          "type": "internal"
+        },
+        {
+          "url": "http://localhost:5175/#",
+          "status": 0,
+          "source": "http://localhost:5175/",
+          "anchorText": "SSS",
+          "type": "internal"
+        },
+        {
+          "url": "http://localhost:5175/#",
+          "status": 0,
+          "source": "http://localhost:5175/",
+          "anchorText": "İletişim",
+          "type": "internal"
+        },
+        {
+          "url": "http://localhost:5175/#",
+          "status": 0,
+          "source": "http://localhost:5175/",
+          "anchorText": "Gizlilik Politikası",
+          "type": "internal"
+        },
+        {
+          "url": "http://localhost:5175/#",
+          "status": 0,
+          "source": "http://localhost:5175/",
+          "anchorText": "Kullanım Şartları",
+          "type": "internal"
+        },
+        {
+          "url": "tel:+902161234567",
+          "status": 0,
+          "source": "http://localhost:5175/",
+          "anchorText": "+90 216 123 45 67",
+          "type": "external"
+        },
+        {
+          "url": "mailto:info@burgerhub.com",
+          "status": 0,
+          "source": "http://localhost:5175/",
+          "anchorText": "info@burgerhub.com",
+          "type": "external"
+        }
+      ],
+      "title": "Burger Hub Unified"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+Error crawling http://127.0.0.1:5175: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:5175
+Stack: Error: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:5175
+    at navigate (/Users/harunozturk/Downloads/repo (2)/node_modules/puppeteer-core/src/cdp/Frame.ts:211:13)
+    at async Function.race (/Users/harunozturk/Downloads/repo (2)/node_modules/puppeteer-core/src/util/Deferred.ts:49:14)
+    at async CdpFrame.goto (/Users/harunozturk/Downloads/repo (2)/node_modules/puppeteer-core/src/cdp/Frame.ts:164:17)
+    at async CdpPage.goto (/Users/harunozturk/Downloads/repo (2)/node_modules/puppeteer-core/src/api/Page.ts:1773:12)
+    at async crawl (/Users/harunozturk/Downloads/repo (2)/scripts/link-analyzer.ts:72:30)

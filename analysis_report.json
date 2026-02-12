@@ -1,0 +1,849 @@
+{
+  "timestamp": "2026-02-10T19:31:50.058Z",
+  "summary": {
+    "total_files": 204,
+    "total_issues": 93,
+    "issues_by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 93,
+      "low": 0
+    }
+  },
+  "issues": [
+    {
+      "id": "fb2fba5c-59e6-4811-bcbf-e67099b17763",
+      "type": "code_quality",
+      "severity": "medium",
+      "category": "complexity",
+      "file_path": "src/modules/admin/components/MenuManagement/ProductTable.tsx",
+      "description": "File is too long (356 lines). Consider refactoring."
+    },
+    {
+      "id": "601a41a5-b564-48c1-9738-0025124116d9",
+      "type": "code_quality",
+      "severity": "medium",
+      "category": "complexity",
+      "file_path": "src/modules/home/components/AuthModal.tsx",
+      "description": "File is too long (313 lines). Consider refactoring."
+    },
+    {
+      "id": "f282db61-1aac-4a9a-9f0b-24c5ac88868a",
+      "type": "security",
+      "severity": "medium",
+      "category": "xss",
+      "file_path": "src/shared/components/ui/chart.tsx",
+      "line_number": 81,
+      "description": "Use of dangerouslySetInnerHTML detected",
+      "code_snippet": "dangerouslySetInnerHTML={{"
+    },
+    {
+      "id": "fba997dd-ba48-40b5-b136-0ec45833076d",
+      "type": "code_quality",
+      "severity": "medium",
+      "category": "complexity",
+      "file_path": "src/shared/components/ui/chart.tsx",
+      "description": "File is too long (352 lines). Consider refactoring."
+    },
+    {
+      "id": "032f22fc-542d-40a0-b587-e43843550ae2",
+      "type": "code_quality",
+      "severity": "medium",
+      "category": "complexity",
+      "file_path": "src/shared/components/ui/sidebar.tsx",
+      "description": "File is too long (727 lines). Consider refactoring."
+    },
+    {
+      "id": "b249b41e-ca6a-46f5-beb2-a0b21d7ca2f3",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/admin/components/next/document.jsx",
+      "description": "Exact duplicate of src/modules/home/components/next/document.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "eb477c6d-2cb5-4964-b72e-6113027a3c8b",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/home/components/next/document.jsx",
+      "description": "Exact duplicate of src/modules/admin/components/next/document.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "807387e8-28f9-4e53-9c7a-0c731a18e6af",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/kitchen/components/next/document.jsx",
+      "description": "Exact duplicate of src/modules/admin/components/next/document.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "3dfe2e73-c036-4c64-99d1-8374e667a19a",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/menu/components/next/document.jsx",
+      "description": "Exact duplicate of src/modules/admin/components/next/document.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "2b5ac0cf-23ca-422c-a323-78da888fc2a0",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/admin/components/next/dynamic.jsx",
+      "description": "Exact duplicate of src/modules/home/components/next/dynamic.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "99bfa7b7-6035-4ef6-8597-14fdba16034e",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/home/components/next/dynamic.jsx",
+      "description": "Exact duplicate of src/modules/admin/components/next/dynamic.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "c83fdbab-f10c-4b59-b3aa-e079e2def48c",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/kitchen/components/next/dynamic.jsx",
+      "description": "Exact duplicate of src/modules/admin/components/next/dynamic.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "aa99f5dc-7191-4104-ad52-807aec7697cf",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/menu/components/next/dynamic.jsx",
+      "description": "Exact duplicate of src/modules/admin/components/next/dynamic.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "22383e38-0857-4536-b1f5-f81a5dbaaa80",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/admin/components/next/font.jsx",
+      "description": "Exact duplicate of src/modules/home/components/next/font.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "827b6905-e38b-41dc-8640-19678b2b6b08",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/home/components/next/font.jsx",
+      "description": "Exact duplicate of src/modules/admin/components/next/font.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "31da5700-2606-4db5-945e-985e54662fb0",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/kitchen/components/next/font.jsx",
+      "description": "Exact duplicate of src/modules/admin/components/next/font.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "51e13c6d-7a4d-4cba-9035-09ae4ed77ea0",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/menu/components/next/font.jsx",
+      "description": "Exact duplicate of src/modules/admin/components/next/font.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "f2d29d91-8449-47bd-8faf-657e90eb3d53",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/admin/components/next/head.jsx",
+      "description": "Exact duplicate of src/modules/home/components/next/head.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "30cc1b90-d7c1-4fd5-953e-da222f2d8d30",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/home/components/next/head.jsx",
+      "description": "Exact duplicate of src/modules/admin/components/next/head.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "f2175a56-ace8-4c58-974f-75cb8713971e",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/kitchen/components/next/head.jsx",
+      "description": "Exact duplicate of src/modules/admin/components/next/head.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "a3c11e05-6de6-4486-91f6-a99862b51a90",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/menu/components/next/head.jsx",
+      "description": "Exact duplicate of src/modules/admin/components/next/head.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "bbc66986-69a5-4571-b388-47546b69ddaf",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/admin/components/next/image.jsx",
+      "description": "Exact duplicate of src/modules/home/components/next/image.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "acce7833-1688-4981-b601-f383b6bb9704",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/home/components/next/image.jsx",
+      "description": "Exact duplicate of src/modules/admin/components/next/image.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "9eff754c-4e33-46a4-83fa-4df6e6a634be",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/kitchen/components/next/image.jsx",
+      "description": "Exact duplicate of src/modules/admin/components/next/image.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "39372f49-a4d7-42ea-a2fb-10ef3274fd5c",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/menu/components/next/image.jsx",
+      "description": "Exact duplicate of src/modules/admin/components/next/image.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "a73c5a40-9fd6-47db-9285-ef3b1a40498d",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/admin/components/next/index.d.ts",
+      "description": "Exact duplicate of src/modules/home/components/next/index.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "4e74c9a0-b8d3-4005-bbdc-c1cff9a1e565",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/home/components/next/index.d.ts",
+      "description": "Exact duplicate of src/modules/admin/components/next/index.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "56235695-4459-4dac-8b78-f0848866a936",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/kitchen/components/next/index.d.ts",
+      "description": "Exact duplicate of src/modules/admin/components/next/index.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "fc61852c-c54b-4940-b734-329624c5f94d",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/menu/components/next/index.d.ts",
+      "description": "Exact duplicate of src/modules/admin/components/next/index.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "5c7927fb-f9a2-45ae-8e91-f0716f679486",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/admin/components/next/index.js",
+      "description": "Exact duplicate of src/modules/home/components/next/index.js",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "25405c8f-ea50-4534-9b41-94c8fa323dfb",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/home/components/next/index.js",
+      "description": "Exact duplicate of src/modules/admin/components/next/index.js",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "b38cbc72-bc1f-4dae-b7eb-fda0d3e6ac05",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/kitchen/components/next/index.js",
+      "description": "Exact duplicate of src/modules/admin/components/next/index.js",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "8d99e961-0dcb-47bb-b0ec-88bb8042bc64",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/menu/components/next/index.js",
+      "description": "Exact duplicate of src/modules/admin/components/next/index.js",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "b41ec885-71a3-4e3b-a36e-50f77e3a3e69",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/admin/components/next/jsx-components.d.ts",
+      "description": "Exact duplicate of src/modules/home/components/next/jsx-components.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "3227a0b5-94a5-4f4e-ba8a-ca5ea074e51a",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/home/components/next/jsx-components.d.ts",
+      "description": "Exact duplicate of src/modules/admin/components/next/jsx-components.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "3393484c-9e75-4111-959e-53ac8a85b8ef",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/kitchen/components/next/jsx-components.d.ts",
+      "description": "Exact duplicate of src/modules/admin/components/next/jsx-components.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "4625480f-7fc4-49cd-94a4-1bac3d52bca9",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/menu/components/next/jsx-components.d.ts",
+      "description": "Exact duplicate of src/modules/admin/components/next/jsx-components.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "e0f4ee66-19d6-4804-b63e-ddb2455c32eb",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/admin/components/next/link.jsx",
+      "description": "Exact duplicate of src/modules/home/components/next/link.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "ca717d87-43e3-4bc4-9373-6444f8118aa8",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/home/components/next/link.jsx",
+      "description": "Exact duplicate of src/modules/admin/components/next/link.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "155810d3-0755-42d1-b5ad-1ce83af7e272",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/kitchen/components/next/link.jsx",
+      "description": "Exact duplicate of src/modules/admin/components/next/link.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "c80fdb6d-2cf2-4f89-8d0a-0216ddf408f0",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/menu/components/next/link.jsx",
+      "description": "Exact duplicate of src/modules/admin/components/next/link.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "84ef206a-6144-497b-8f82-1c15dac06d50",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/admin/components/next/navigation.jsx",
+      "description": "Exact duplicate of src/modules/home/components/next/navigation.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "f18c8d26-c266-4339-bc54-7ffeb39507af",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/home/components/next/navigation.jsx",
+      "description": "Exact duplicate of src/modules/admin/components/next/navigation.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "0a267dc0-9e96-458b-beda-80e8eb9f77ad",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/kitchen/components/next/navigation.jsx",
+      "description": "Exact duplicate of src/modules/admin/components/next/navigation.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "66d7c317-c340-4897-8c70-b71ac4c8a8ab",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/menu/components/next/navigation.jsx",
+      "description": "Exact duplicate of src/modules/admin/components/next/navigation.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "f606070b-66a8-49fb-b731-239d76d817aa",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/admin/components/next/router.jsx",
+      "description": "Exact duplicate of src/modules/home/components/next/router.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "63314615-6f6f-41c0-937b-32ecdabc625a",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/home/components/next/router.jsx",
+      "description": "Exact duplicate of src/modules/admin/components/next/router.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "4a4dd6ac-393c-4b55-ab34-d1cb08617670",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/kitchen/components/next/router.jsx",
+      "description": "Exact duplicate of src/modules/admin/components/next/router.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "b59fcd19-587f-4856-b609-088e2d1862c6",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/menu/components/next/router.jsx",
+      "description": "Exact duplicate of src/modules/admin/components/next/router.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "26084268-d2a9-4884-a037-b573e6a8591b",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/admin/components/next/script.jsx",
+      "description": "Exact duplicate of src/modules/home/components/next/script.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "2f26f3f2-4d96-4533-bf80-c8f5742f1c1a",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/home/components/next/script.jsx",
+      "description": "Exact duplicate of src/modules/admin/components/next/script.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "3e2b1cf0-6543-4299-a582-3e8ba816239c",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/kitchen/components/next/script.jsx",
+      "description": "Exact duplicate of src/modules/admin/components/next/script.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "c7d79466-e5a0-4fee-bfee-c4059fd8be61",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/menu/components/next/script.jsx",
+      "description": "Exact duplicate of src/modules/admin/components/next/script.jsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "0200ab54-8302-4b48-80a0-8fb52008cc12",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/admin/hooks/use-media-query.tsx",
+      "description": "Exact duplicate of src/modules/home/hooks/use-media-query.tsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "040b2bd9-2745-4a23-9614-54d0677113b8",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/home/hooks/use-media-query.tsx",
+      "description": "Exact duplicate of src/modules/admin/hooks/use-media-query.tsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "63821317-6698-4ece-8521-7a7c6a34cad6",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/kitchen/hooks/use-media-query.tsx",
+      "description": "Exact duplicate of src/modules/admin/hooks/use-media-query.tsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "9054de5f-5549-44dd-b732-4fd4353106e8",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/menu/hooks/use-media-query.tsx",
+      "description": "Exact duplicate of src/modules/admin/hooks/use-media-query.tsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "a2fb8ab7-f116-49a7-b568-d75ad770b00b",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/admin/hooks/use-mobile.ts",
+      "description": "Exact duplicate of src/modules/home/hooks/use-mobile.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "392cd3bd-35f2-4d77-a639-95d6e99de028",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/home/hooks/use-mobile.ts",
+      "description": "Exact duplicate of src/modules/admin/hooks/use-mobile.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "0975b1e9-da55-40a5-87dc-274bc52f3594",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/kitchen/hooks/use-mobile.ts",
+      "description": "Exact duplicate of src/modules/admin/hooks/use-mobile.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "4f2eb556-c28e-4ec2-a32a-cba998ad175a",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/menu/hooks/use-mobile.ts",
+      "description": "Exact duplicate of src/modules/admin/hooks/use-mobile.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "4fce03e0-337c-4bd0-8196-799673edc2c0",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/shared/hooks/use-mobile.tsx",
+      "description": "Exact duplicate of src/modules/admin/hooks/use-mobile.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "9a07cdc4-1e6e-4d1b-b712-45caee007772",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/admin/lib/utils.ts",
+      "description": "Exact duplicate of src/modules/kitchen/lib/utils.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "bf0be9ad-6f1d-44de-9c28-60d9177b87a0",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/kitchen/lib/utils.ts",
+      "description": "Exact duplicate of src/modules/admin/lib/utils.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "96516715-b640-4d96-b1c2-5e434d06b3f6",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/menu/lib/utils.ts",
+      "description": "Exact duplicate of src/modules/admin/lib/utils.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "a8e12fca-d15f-4bc6-8369-9cbf996764aa",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/admin/main.tsx",
+      "description": "Exact duplicate of src/modules/home/main.tsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "766657ae-1f75-41db-9b07-8321a44be40e",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/home/main.tsx",
+      "description": "Exact duplicate of src/modules/admin/main.tsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "16df9dc1-9103-49f8-ac35-8a37ff761538",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/kitchen/main.tsx",
+      "description": "Exact duplicate of src/modules/admin/main.tsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "7e69d60b-cc77-44f9-9ced-9e4466d10681",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/menu/main.tsx",
+      "description": "Exact duplicate of src/modules/admin/main.tsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "29a02556-288d-4abf-9692-7061a4145799",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/admin/next-themes.tsx",
+      "description": "Exact duplicate of src/modules/home/next-themes.tsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "8dd40255-5037-4d0a-9b31-4b4fbdae9503",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/home/next-themes.tsx",
+      "description": "Exact duplicate of src/modules/admin/next-themes.tsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "3999f06d-14eb-45d6-af6c-0f14d84f4211",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/kitchen/next-themes.tsx",
+      "description": "Exact duplicate of src/modules/admin/next-themes.tsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "a68d85b5-68bb-4580-bd03-f74bdb27554d",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/menu/next-themes.tsx",
+      "description": "Exact duplicate of src/modules/admin/next-themes.tsx",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "825555ef-3f16-4d9e-8888-651ca536f5aa",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/admin/types/global.d.ts",
+      "description": "Exact duplicate of src/modules/home/types/global.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "a9866db6-d061-4f85-81c1-fca9c8655b0b",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/home/types/global.d.ts",
+      "description": "Exact duplicate of src/modules/admin/types/global.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "467cf103-4692-4d6d-8909-172a98907d46",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/kitchen/types/global.d.ts",
+      "description": "Exact duplicate of src/modules/admin/types/global.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "8b62796f-0667-4135-8738-41a4311a9690",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/menu/types/global.d.ts",
+      "description": "Exact duplicate of src/modules/admin/types/global.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "a9273d75-0719-4d44-9dca-cbc9b6129e3b",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/admin/types/modules.d.ts",
+      "description": "Exact duplicate of src/modules/home/types/modules.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "65e6f809-abe5-40b8-a86e-2a8589910471",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/home/types/modules.d.ts",
+      "description": "Exact duplicate of src/modules/admin/types/modules.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "9d3f58e9-8d62-49a9-b9d3-ccf811b02f11",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/kitchen/types/modules.d.ts",
+      "description": "Exact duplicate of src/modules/admin/types/modules.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "ae290ede-4a7f-4bad-9c3f-060270ab5577",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/menu/types/modules.d.ts",
+      "description": "Exact duplicate of src/modules/admin/types/modules.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "cc7e39e5-12ee-47f6-b81d-8366df18c535",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/admin/types/next.d.ts",
+      "description": "Exact duplicate of src/modules/home/types/next.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "deeabf2d-5e1f-40b3-85ca-e0cf97dd8be9",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/home/types/next.d.ts",
+      "description": "Exact duplicate of src/modules/admin/types/next.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "f272775a-d1f4-45a9-9134-61c6818bd665",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/kitchen/types/next.d.ts",
+      "description": "Exact duplicate of src/modules/admin/types/next.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "83a1f00c-c195-469e-b575-b1576d2044e4",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/menu/types/next.d.ts",
+      "description": "Exact duplicate of src/modules/admin/types/next.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "c29f4064-dca9-4f08-be34-3792a1fc5743",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/admin/types/styled-jsx.d.ts",
+      "description": "Exact duplicate of src/modules/home/types/styled-jsx.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "27c50c50-9e22-4402-bedf-e978928f139c",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/home/types/styled-jsx.d.ts",
+      "description": "Exact duplicate of src/modules/admin/types/styled-jsx.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "9977bf2b-db18-4ed5-9ad0-852b07a8a937",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/kitchen/types/styled-jsx.d.ts",
+      "description": "Exact duplicate of src/modules/admin/types/styled-jsx.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "d9ea9db3-8899-4848-856c-1fdf63569269",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/menu/types/styled-jsx.d.ts",
+      "description": "Exact duplicate of src/modules/admin/types/styled-jsx.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "5ae7ac06-3413-4173-b377-1cec0e154134",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/admin/vite-env.d.ts",
+      "description": "Exact duplicate of src/modules/home/vite-env.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "088448b9-f24e-4b14-9049-f5f4b4758189",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/home/vite-env.d.ts",
+      "description": "Exact duplicate of src/modules/admin/vite-env.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "1218714e-4a97-46c0-8e5d-e53e29797b69",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/kitchen/vite-env.d.ts",
+      "description": "Exact duplicate of src/modules/admin/vite-env.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    },
+    {
+      "id": "9e6d8ffa-ead5-44af-8b57-c376af819f3f",
+      "type": "duplicate_code",
+      "severity": "medium",
+      "category": "exact_duplicate",
+      "file_path": "src/modules/menu/vite-env.d.ts",
+      "description": "Exact duplicate of src/modules/admin/vite-env.d.ts",
+      "recommendation": "Extract common logic or delete duplicate file."
+    }
+  ]
+}
